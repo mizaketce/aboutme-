@@ -1,0 +1,102 @@
+ #myVideo{
+ object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+ @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    font-family: 'Varela Round', sans-serif;
+    color: rgba(230, 230, 250, 1);
+}
+
+
+
+
+
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: rgba(230, 230, 250, 0.2);
+    border: 3px solid rgba(30, 144, 255, 0.6);
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: -50px;
+    bottom: 0;
+}
+
+
+ 
+ .about {
+ 
+  position: relative;
+  text-align: center;
+     top: 25%;
+    
+ 
+}
+
+.nama {
+  position: absolute;
+     top: 40%;
+    left: 3%;
+}
+
+.nama1 {
+  position: absolute;
+     top: 49%;
+    left: 3%;
+}
+
+img{
+  position: absolute;
+  
+  top: 2%;
+ height: 100px;
+ width: 100px;
+ right: 33%;
+ 
+ border-radius: 50px;
+ 
+}
+
+.back {
+  position: absolute;
+  bottom: 91%;
+  -webkit-text-fill-color: floralwhite;
+}
+
+.about1 {
+  
+  position: absolute;
+  left: 3%;
+  top: 65%;
+}
+
+.kelas {
+  position: absolute;
+  left: 3%;
+  top: 73%;
+}
+
+.TTL{
+  position: absolute;
+  top: 57%;
+  left: 4%;
+}
+
+.ig {
+  position: absolute;
+  top: 80%;
+  left: 4%;
+}
+
